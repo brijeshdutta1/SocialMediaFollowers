@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'twitter.apps.TwitterConfig',
     'facebook.apps.FacebookConfig',
     'instagram.apps.InstagramConfig',
     'pages.apps.PagesConfig',
